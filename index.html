@@ -1,7 +1,7 @@
 ---
 layout: workshop
 root: .
-venue: FIXME      # brief name of host site
+venue: UCL Software Carpentry Workshop      # brief name of host site
 address: Cruciform B115A Cluster, University College London # street address of home location
 country: United-Kingdom    # country (hyphenated if need be, like 'United-Kingdom')
 language: en   # language code like 'en' or 'fr'
@@ -10,9 +10,9 @@ humandate: Jun 18-19, 2015  # use the format 'Feb 17-18, 2020' (without the quot
 humantime: 10:00 am - 05:00 pm  # use the format '9:00 am - 4:30 pm' (without the quotes)
 startdate: 2015-06-18  # use YYYY-MM-DD format like 2015-01-01
 enddate: 2015-06-19    # use YYYY-MM-DD format like 2015-01-02
-instructor: ["RITS"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Thomas Couch", "Raquel Alegre", "Ben Waugh", "David Wright"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["TOC"]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: TOC    # contact email address for workshop organizer
+contact: s.shi@ucl.ac.uk    # contact email address for workshop organizer
 etherpad:   # optional (insert the URL for your Etherpad if you're using one)
 eventbrite: # optional (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
 ---
@@ -144,23 +144,20 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>10:00</td>  <td>Opening</td> </tr>
+      <tr> <td>10:15</td>  <td>Version control</td></tr>
+      <tr> <td>13:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>14:00</td>  <td>Introduction to Python</td> </tr>
+      <tr> <td>17:00</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>10:00</td>  <td>Database</td> </tr>
+      <tr> <td>13:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>14:00</td>  <td>Software testing</td> </tr>
+      <tr> <td>17:00</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
 </div>
@@ -208,48 +205,7 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
 
 <div class="row">
   <div class="col-md-6">
-    <h3>The Unix Shell</h3>
-    <ul>
-      <li>Files and directories</li>
-      <li>History and tab completion</li>
-      <li>Pipes and redirection</li>
-      <li>Looping over files</li>
-      <li>Creating and running shell scripts</li>
-      <li>Finding things</li>
-      <li><a href="{{site.swc_lessons}}/ref/01-shell.html">Reference...</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6">
-    <h3>Programming in Python</h3>
-    <ul>
-      <li>Using libraries</li>
-      <li>Working with arrays</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Defensive programming</li>
-      <li>Using Python from the command line</li>
-      <li><a href="{{site.swc_lessons}}/ref/03-python.html">Reference...</a></li>
-    </ul>
-  </div>
-  <!--
-  <div class="col-md-6">
-    <h3>Programming in R</h3>
-    <ul>
-      <li>Working with vectors and data frames</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Using R from the command line</li>
-      <li><a href="{{site.swc_lessons}}/ref/06-R.html">Reference...</a></li>
-    </ul>
-  </div>
-  -->
-</div>
-
-<div class="row">
-  <div class="col-md-6">
-    <h3>Version Control with Git</h3>
+    <h3>Version Control</h3>
     <ul>
       <li>Creating a repository</li>
       <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
@@ -263,7 +219,23 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
     </ul>
   </div>
   <div class="col-md-6">
-    <h3>Managing Data with SQL</h3>
+  <h3>Introduction to  Python</h3>
+    <ul>
+      <li>Using libraries</li>
+      <li>Working with arrays</li>
+      <li>Reading and plotting data</li>
+      <li>Creating and using functions</li>
+      <li>Loops and conditionals</li>
+      <li>Defensive programming</li>
+      <li>Using Python from the command line</li>
+      <li><a href="{{site.swc_lessons}}/ref/03-python.html">Reference...</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3>Database</h3>
     <ul>
       <li>Reading and sorting data</li>
       <li>Filtering with <code>where</code></li>
@@ -274,6 +246,18 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
       <li>Creating, modifying, and deleting data</li>
       <li>Programming with databases</li>
       <li><a href="{{site.swc_lessons}}/ref/04-sql.html">Reference...</a></li>
+    </ul>
+  </div>
+
+  <div class="col-md-6">
+    <h3>Software Testing</h3>
+    <ul>
+      <li>Introduction</li>
+      <li>Exceptions</li>
+      <li>Unit Testing</li>
+      <li>Interface and Implementation</li>
+      <li>Floating Point</li>
+      <li>Fixtures</li>
     </ul>
   </div>
 </div>
@@ -592,6 +576,7 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
     </div>
   </div>
 </div> <!-- End of 'R' section. -->
+
 
 <div id="sql"> <!-- Start of 'SQLite' section. -->
   <h3>SQLite</h3>
